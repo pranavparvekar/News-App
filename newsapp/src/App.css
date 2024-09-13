@@ -1,0 +1,56 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.active-link {
+  text-decoration: underline;
+}
+
+.card-zoom:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.current-time {
+  flex: 1;
+  text-align: right;
+  padding-right: 20px; 
+}
+/* CSS for search form */
+
+.home-container {
+  max-width: 5000px;
+  margin: 0 auto;
+  padding: 280px;
+  background-image: url('86969895_3216377868377231_6936282817655472128_n.jpg');
+  background-size: auto 100%; 
+  background-position: center;
+  color: #f10c0c; 
+}
+

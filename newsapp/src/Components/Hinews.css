@@ -1,0 +1,106 @@
+.hinews-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hinews-title {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  font-family: "Times New Roman serif";
+}
+
+.hinews-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.hinews-button:hover {
+  background-color: #b30000;
+}
+
+.hinews-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hinews-input {
+  padding: 14px;
+  font-size: 18px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  width: 400px;
+}
+
+.hinews-input:focus {
+  border-color: #0056b3;
+}
+
+.hinews-submit {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.hinews-submit:hover {
+  background-color: #218838;
+}
+
+.hinews-articles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.hinews-article {
+  flex: 1 1 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.hinews-article:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+
+.hinews-article img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.hinews-article-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.hinews-article-description {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.hinews-article-details {
+  font-size: 16px;
+}
